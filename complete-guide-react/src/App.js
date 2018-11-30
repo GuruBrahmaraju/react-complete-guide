@@ -30,7 +30,7 @@ class App extends Component {
       <h1>Hi, I am React App</h1>
       <p>This is realy Working on the Paragraph</p>
       
-      <button onClick = {this.switchNameHandler.bind(this, 'Maximilian')}>Switch Names</button><p></p>
+      <button onClick = {this.switchNameHandler.bind(this, 'Maximilian')}>Switch Names</button><p>4</p>
       <button onClick = {() => this.switchNameHandler('Maximilian !!!')} >Switch ReturnFunction Name </button>
       <Person 
        name = {this.state.persons[0].name} 
